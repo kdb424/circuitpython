@@ -42,7 +42,7 @@
 #define MICROPY_PY_UJSON                         (1)
 
 // 24kiB stack
-#define CIRCUITPY_DEFAULT_STACK_SIZE            (24*1024)
+#define CIRCUITPY_DEFAULT_STACK_SIZE            (9*1024)
 
 #ifdef NRF52840
 #define MICROPY_PY_SYS_PLATFORM "nRF52840"
